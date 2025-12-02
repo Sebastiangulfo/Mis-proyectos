@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cajero</title>
+<script src="cajero.js"></script>
+    <link rel="stylesheet" href="cajero.css">
+</head>
+<body>
+    <h1>CAJERO AUTOMATICO</h1>
+
+    <div class="cajero">
+
+        <div class="encabezado">
+
+            <div class="colunm1">
+
+                <input type="button" id="bt10" value="10,000" onclick="bt10()">
+                <br>
+                <input type="button" id="bt20" value="20,000" onclick="bt20()">
+                <br>
+                <input type="button" id="bt40" value="40,000" onclick="bt40()">
+
+            </div>
+
+            <div class="colunm2">
+                <input type="number" value="" id="pantalla">
+            </div>
+
+            <div class="colunm3">
+
+                <input type="button" id="bt50" value="50,000" onclick="bt50()">
+                <br>
+                <input type="button" id="bt100" value="100,000" onclick="bt100()">
+                <br>
+                <input type="button" id="bt200" value="200,000" onclick="bt200()">
+
+            </div>
+        </div>
+
+        
+        <div class="factura">
+
+            <div class="botones">
+
+                <button id="b1" onclick="bt1()">1</button>
+                <button id="b2" onclick="bt2()">2</button>
+                <button id="b3" onclick="bt3()">3</button>
+                <button id="btr" onclick="btr()">R</button>
+                <br>
+                <button id="b4" onclick="bt4()">4</button>
+                <button id="b5" onclick="bt5()">5</button>
+                <button id="b6" onclick="bt6()">6</button>
+                <button id="bA" onclick="bta()">A</button>
+                <br>
+                <button id="b7" onclick="bt7()">7</button>
+                <button id="b8" onclick="bt8()">8</button>
+                <button id="b9" onclick="bt9()">9</button>
+                <button id="btc" onclick="btc()">C</button>
+                <br>
+                <button>.</button>
+                <button id="b0" onclick="bt0()">0</button>
+                <button>.</button>
+                <button>.</button>
+                
+            </div>
+
+            <div class="factura">
+                <textarea id="factura" rows="10" cols="10" disabled>recibo</textarea> 
+                <br>
+    
+            </div>
+        
+        </div>
+    
+    </div>
+
+
+</body>
+</html>

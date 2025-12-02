@@ -1,0 +1,94 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.cajero{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 715px;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(197, 14, 182);
+    height: 570px;
+}   
+
+input{
+    text-align: center;
+}
+
+input[type="button"]{
+    font-size: 15px;
+    border-radius: 10px;
+    font-size: bold;
+    padding: 5px;
+    cursor:pointer;
+    height: 40px;
+    width: 90px;
+    margin: 20px; 
+    box-sizing: content-box;
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+
+}
+
+button{
+    font-size: 20px;
+    border-radius: 10px;
+    font-size: bold;
+    text-align: center;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    padding: 31px;  
+    margin: 1px;
+}
+
+.encabezado{
+    background-color: rgb(95, 3, 31);
+    border-radius: 20px;
+    align-items: stretch;
+    display: flex;
+    border-style: solid;
+    border-color: rgb(143, 16, 132);
+    width: 710px;
+
+}
+
+#pantalla{
+    background-color: bisque;
+    font-size: 100px;
+    border: 2px;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    border-style: solid;
+    margin: 5px;
+}
+
+.detalle{
+    display: flex;
+}
+
+.factura{
+    display: flex;
+    margin: 8px;
+    font-size: xx-small;
+    border-radius: 20px;
+    margin-left: 120px;
+    text-align: center; 
+}
+
+#factura{
+    border-radius: 10px;
+    height:259px ;
+    background-color: bisque;
+}
+
