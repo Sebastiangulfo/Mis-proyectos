@@ -1,0 +1,86 @@
+.dp{
+    background-color: rgb(255, 255, 255);
+    width: 1295px;
+    height: 708px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    border-radius: 10px;
+    
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+
+.dp1{
+    width: 580px;
+    height: 530px;
+    position: relative;
+    top: 420px;
+    right: 0px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+    
+}
+
+.dz{
+    background: linear-gradient(135deg, #559df5, #1734c5);
+    height: 605px;
+    width: 800px;
+    padding-left: 160px;
+    padding-right: 200px;
+    padding-top: 83px;
+    color: #fff;
+    position: relative;
+    left: 460px;
+    top: -600px;
+    border-radius: 10px;
+}
+
+
+.inputs{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.bor{
+    width: 240px;
+    height: 35px;
+}
+
+.textarea{
+    width: 527px;
+    height:120px;
+}
+
+#bu{
+    background-color: rgb(42, 90, 221);
+    color: white;
+    font-weight: bold;
+    height: 47px;
+    width: 100px;
+    border: 0cap;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bu:hover{
+    background-color: rgb(42, 59, 218);
+}
+
+
+
+
+
