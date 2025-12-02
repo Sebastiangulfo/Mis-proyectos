@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dp{
+    border: 0px rgb(177, 177, 177) solid;
+    width: 30rem;
+    height: 25rem;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 1rem rgb(204, 204, 204);
+    
+}
+
+.d1{
+  margin-top: 2rem;
+}
+
+.buscar{
+    width: 60%;
+    height: 2rem;
+    border: 1px rgb(204, 203, 203) solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-agregar{
+    background-color: white;
+    width: 6rem;
+    height: 3.2rem;
+    border: 1px rgb(201, 201, 201) solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn-agregar:hover{
+    background-color: rgb(226, 226, 226);
+    
+}
+
+#listaTareas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(201,201,201);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #f9f9f9;
+    position: relative;
+    right: 1.2rem;
+}
+
+#listaTareas li span {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#listaTareas li button {
+    margin-left: 1rem;
+    cursor: pointer;
+}
