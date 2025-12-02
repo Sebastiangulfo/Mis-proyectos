@@ -1,0 +1,87 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+.dpp{
+    background: linear-gradient(135deg, #df591a, #233dc0);
+    width: 900px;
+    height: 870px;
+    position: relative;
+    left: 600px;
+}
+
+.d1{
+    background-color: rgb(255, 246, 246);
+    width: 900px;
+    height: 870px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.inputs{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+}
+
+.inputt{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bor{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#p2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#bu{
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    border: 0cap;
+    cursor: pointer;
+}
+
+#bu:hover{
+    background-color: #d94e09;
+}
+
+#b{
+    text-align: center;
+}
+
+.textarea{
+    width: 625px;
+    height:120px;
+}
+
+
+
