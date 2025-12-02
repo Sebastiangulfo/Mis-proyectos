@@ -1,0 +1,46 @@
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consultorio Médico · Wireframe</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body class="wf">
+  <header class="app-header">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">⚕️</span>
+      <span class="brand-name">Consultorio</span>
+    </div>
+    <nav class="top-actions" aria-label="Acciones">
+      <button id="toggleWf" class="btn">WF</button>
+      <a class="btn" href="#/ajustes" aria-label="Ajustes">Ajustes</a>
+      <span class="user">Dra. Demo</span>
+    </nav>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Secciones">
+      <ul class="menu">
+        <li><a href="#/dashboard" id="inicio">Inicio</a></li>
+        <li><a href="#/agenda" id="agenda">Agenda</a></li>
+        <li><a href="#/pacientes" id="paciente">Pacientes</a></li>
+        <li><a href="#/facturacion" id="facturacion">Facturación</a></li>
+        <li><a href="#/ajustes" id="ajustes">Ajustes</a></li>
+      </ul>
+    </aside>
+
+    <main id="app" class="main" tabindex="-1" aria-live="polite" aria-busy="false">
+      <!-- Vistas renderizadas por app.js -->  
+       
+    </main>
+  </div>
+
+  <footer class="app-footer">
+    <small>Proyecto educativo · Modo wireframe</small>
+  </footer>
+
+  <script src="js.js"></script>
+  </body>
+</html>
