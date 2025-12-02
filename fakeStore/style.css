@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#cartas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carta {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.carta:hover {
+  transform: scale(1.03);
+}
+
+.carta img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.carta h3 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.carta p {
+  font-weight: bold;
+  color: #2c3e50;
+}
